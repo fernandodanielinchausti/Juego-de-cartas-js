@@ -1,0 +1,154 @@
+
+@font-face {
+  font-family: "ninja_narutoregular";
+  src: url("WebFont.eot");
+  src: url("WebFont.eot?#iefix") format("embedded-opentype"), url("WebFont.woff") format("woff"), url("WebFont.ttf") format("truetype"), url("WebFont.svg#webfont") format("svg");
+}
+
+
+body {
+  height: 100vh;
+  background: url(../images/Magical.jpg) center;
+  *background-color: rgb(129, 129, 197) !important;
+ 
+  
+}
+
+h1 {
+  padding: 20px;
+  text-align: center;
+  color: #5988b5;
+  font-family: "ninja_narutoregular";
+  text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c, 7px 9px 10px #000000;
+}
+h3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #5988b5;
+  font-family: "ninja_narutoregular";
+  text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c, 7px 9px 10px #000000;
+}
+
+h2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #5988b5;
+  font-family: "ninja_narutoregular";
+  text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c, 7px 9px 10px #000000;
+}
+
+ .page {
+  display: none;
+  
+} 
+/* .carousel {
+  background-color: blueviolet;
+} */
+ .row {
+  flex-direction: column;
+  align-items: center;
+}
+#home{
+  max-width: 600px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+#home h2 {
+  color: #322375;
+  font-family: "ninja_narutoregular";
+  text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c, 7px 9px 10px #000000;
+}
+.form-label{
+  
+  font-weight: bolder;
+  font-size: 20px;
+  color: #322375;
+  
+}
+#pForm{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.animacion-inner {
+  background: url(../images/loading2.gif) no-repeat center;
+  min-height: 600px;
+}
+.carousel-caption {
+  
+  background-color: rgba(0, 0, 0, 0.4);
+  color: yellow !important;
+  position: unset !important;
+  min-height: 170px;
+  border-radius: 15px
+}
+
+#contCard{
+  max-width: 350px;
+}
+.carousel-item img{
+    display: flex;
+    height: 59vh;
+}
+p {
+    padding: 0px 20px 0px 20px;
+}
+
+.modal-content{
+  align-items: center;
+  font-size: 16px;
+
+}
+
+
+.el-resultado ul{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: center
+
+}
+
+.el-resultado ul li img{
+  max-width: 165px;
+}
+#verRes{
+  margin: 10px;
+}
+
+#btnShowPopup{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 200px; 
+  margin: 15px;
+}
+.guardadas ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  
+}
+.guardadas ul li {
+  background-color: azure;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid rgb(227, 214, 214);
+  padding: 10px;
+  font-weight: bolder;
+  font-size: 18px;
+  color: #322375;
+  
+}
+#resu{
+  margin: 20px;
+  justify-content: space-evenly;
+ 
+
+}
